@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+
+.mainCallToAction {
+  background-color: #212529;
+  padding: 40px 0px;
+}
+.mainCallToAction .cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCallToAction .mainCTA-content {
+  color: #fff;
+  width: 65%;
+}
+
+.mainCallToAction .mainCTA-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.mainCallToAction .mainCTA-content h2 span {
+  font-family: "Shadows Into Light Two", cursive;
+  color: #0088cc;
+  text-align: left;
+  line-height: 20px;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+}
+.mainCallToAction .mainCTA-content p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.mainCallToAction .mainCTA-btn {
+  width: 35%;
+}
+
+.mainCallToAction .mainCTA-btn a:nth-child(1) {
+  padding: 16px 25px;
+  background-color: #0088cc;
+  border: 1px solid #0088cc;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.mainCallToAction .mainCTA-btn a:nth-child(2) {
+  padding: 5px 10px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-left: 10px;
+}

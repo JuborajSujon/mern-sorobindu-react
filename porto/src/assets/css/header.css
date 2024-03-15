@@ -1,0 +1,55 @@
+header {
+  height: 85px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header-left {
+  width: 20%;
+}
+.logo a img {
+  margin-top: 20px;
+  width: 105px;
+  height: 45px;
+}
+.header-right {
+  width: 80%;
+}
+
+.header-right .menu-list {
+  width: 85%;
+}
+
+.menu-list ul li a {
+  color: gray;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  padding: 30px 12px;
+  text-align: left;
+  text-transform: uppercase;
+  border-top: 4px solid transparent;
+}
+.menu-list ul li a:hover {
+  color: #0088cc;
+  border-top: 4px solid #0088cc;
+}
+.header-right .social-list {
+  text-align: right;
+  color: #999;
+  width: 15%;
+}
+
+.header-right .social-list i {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 3px;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-right .social-list i:hover {
+  color: #fff;
+  background-color: #0088cc;
+  border-radius: 50%;
+}

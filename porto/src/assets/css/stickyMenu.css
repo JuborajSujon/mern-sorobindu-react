@@ -1,0 +1,38 @@
+.sticky-menu {
+  position: fixed;
+  top: 230px;
+  right: 0;
+  display: grid;
+  color: #222529;
+}
+
+.sticky-menu a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.275px;
+  line-height: 19px;
+  color: #222529;
+  border: 1px solid #e5e5e5;
+  background-color: aliceblue;
+  border-radius: 4px 0px 0px 4px;
+  box-shadow: #000 0px 0px 7px 1px;
+  margin-bottom: 20px;
+}
+
+.sticky-menu a i {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sticky-menu a:hover {
+  background-color: #222529;
+  color: aliceblue;
+}

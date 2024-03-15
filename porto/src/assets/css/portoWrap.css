@@ -1,0 +1,49 @@
+.portoWrap {
+  background-color: #ffffff;
+}
+.portoWrap .pw-container {
+}
+.portoWrap .pw-container .pw-content {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  background-image: url("../images/pwbg.jpg");
+  position: relative;
+}
+.portoWrap .pw-container .pw-content .pw-content-inner {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  background-color: #ffffff;
+}
+.portoWrap .pw-container .pw-content .pw-content-inner h2 {
+  text-align: center;
+  color: #212529;
+  letter-spacing: -1.5px;
+  line-height: 40px;
+  padding: 7px 0px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.portoWrap .pw-container .pw-content .pw-content-inner h2 span {
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #ffffff;
+  background-color: #000;
+}
+.portoWrap .pw-container .pw-content .pw-content-inner p {
+  color: #777;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 30px;
+  text-align: center;
+}
+.portoWrap .pw-container .pw-content .pw-content-blank {
+  height: 85px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+}

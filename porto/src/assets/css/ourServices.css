@@ -1,0 +1,56 @@
+.container .row {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.section-title {
+  text-align: center;
+  padding: 15px;
+}
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.section-title h2 .first {
+  font-weight: 300;
+  margin-right: 10px;
+}
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-content .card-item {
+  width: 32%;
+  display: flex;
+  padding: 15px 0px;
+}
+.section-content .card-item .content-logo {
+  width: 17%;
+}
+.section-content .card-item .content-logo i {
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #0088cc;
+}
+
+.section-content .card-item .content-details {
+  width: 83%;
+}
+
+.content-details h4 {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 700;
+  letter-spacing: -0.98px;
+  line-height: 24px;
+  margin: 3px 0px 10px;
+}
+
+.content-details p {
+  color: #777;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 16px 0px 0px;
+}
