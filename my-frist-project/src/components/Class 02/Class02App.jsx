@@ -1,13 +1,16 @@
 // import ClassProps from "./Props/ClassProps";
 // import FunctionProps from "./Props/FunctionProps";
-import Team from "./Team/Team";
+// import Team from "./Team/Team";
+
+import Counter from "./Event Handler/Counter";
 
 const Class02App = () => {
   return (
     <div>
       {/* <FunctionProps />
       <ClassProps /> */}
-      <Team />
+      {/* <Team /> */}
+      <Counter />
     </div>
   );
 };
