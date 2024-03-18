@@ -1,3 +1,9 @@
+import Input from "./Input/Input";
+
 export default function Class3App() {
-  return <div>Class3App</div>;
+  return (
+    <div>
+      <Input />
+    </div>
+  );
 }
