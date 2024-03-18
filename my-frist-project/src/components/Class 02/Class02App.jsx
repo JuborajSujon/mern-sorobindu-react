@@ -10,7 +10,7 @@ const Class02App = () => {
       {/* <FunctionProps />
       <ClassProps /> */}
       {/* <Team /> */}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 };
